@@ -58,7 +58,7 @@ a {
   margin-left: 150px;
 }
 
-.main-text, .subtext {
+.media-body .main-text, .media-body .subtext {
   display: flex;
   flex-flow: row wrap;
   width: 450px;
@@ -125,4 +125,28 @@ figcaption {
   padding-bottom: 100px;
   display: flex;
   justify-content: flex-end; 
+}
+
+.bluebox {
+  margin: 100px 150px;
+  padding: 50px 100px;
+  width: auto;
+  display: flex;
+  background-color :#3882F6;
+}
+
+.bluebox .main-text {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.bluebox .subtext {
+  color: hsl(0,0%,80%); font-size: 20px;
+  margin: 0px;
+  align-items: flex-end;
+}
+
+button.CTA.sign-up {
+  justify-content: flex-end;
+  border: 2px solid; border-color: white; border-radius: 10px;
 }
