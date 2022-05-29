@@ -150,3 +150,11 @@ button.CTA.sign-up {
   justify-content: flex-end;
   border: 2px solid; border-color: white; border-radius: 10px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0,0%,80%); font-size: 20px;
+  padding: 40px;
+}
