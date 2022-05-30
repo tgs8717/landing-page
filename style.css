@@ -130,9 +130,9 @@ figcaption {
 .bluebox {
   margin: 100px 150px;
   padding: 50px 100px;
-  width: auto;
   display: flex;
   background-color :#3882F6;
+  align-items: center;
 }
 
 .bluebox .main-text {
@@ -149,6 +149,9 @@ figcaption {
 button.CTA.sign-up {
   justify-content: flex-end;
   border: 2px solid; border-color: white; border-radius: 10px;
+  font-size: 17px;
+  width: 130px;
+  padding: 10px 15px 10px;
 }
 
 .footer {
